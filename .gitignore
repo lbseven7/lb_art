@@ -1,0 +1,29 @@
+# Arquivos e pastas comuns para ignorar em projetos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Ambiente virtual
+venv/
+.env
+
+# Configurações do PyCharm
+.idea/
+
+# Configurações do VSCode
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Arquivos gerados
+*.egg-info/
+dist/
+build/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
